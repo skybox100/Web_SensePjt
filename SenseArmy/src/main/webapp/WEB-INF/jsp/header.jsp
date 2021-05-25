@@ -8,29 +8,19 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <link rel="stylesheet" href="${pageContext.request.contextPath}/css/main.css">
-<!-- <script src="/Connect-team/SenseArmy/main.js?ver=main1"></script> -->
 </head>
-<script>
-
-function seeprofile()
-{
-var url="seeprofile";
-open(url,"emailwindow", "statusbar=no, scrollbar=no, menubar=no, width=600, height=600" );
-}
-</script>
+<script type="text/javascript"></script>
 <body>
 <div class="floor_h7 shadow container_w100 ">
-<!--  -->
+
 <div class="font_design2 container_w5">
 <a href="home.do" class="margin_left_10 padding">LOGO</a>
 </div>
 <div class="container_w30 flex center">
-<!-- search 있던 장소 -->
+
  				<c:if test="${invitenum != 0}">
 				</c:if>
-<%-- 			 	<c:if test="${invitenum != 0}"> --%>
-<%-- 				</c:if> --%>
-<!-- onclick="changeprofile()" -->
+
 	<c:set var="admin" value="admin" />
 	<c:if test="${name != null}">
 <img alt="logo" class="" width="40" height="40" onclick="seeprofile()" style="border-radius:50px; margin-right:15px; overflow:hidden" src="resources/profile/${imgname}">
