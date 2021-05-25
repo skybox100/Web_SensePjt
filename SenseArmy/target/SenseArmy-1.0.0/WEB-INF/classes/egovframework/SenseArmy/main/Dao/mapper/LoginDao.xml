@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="army.dao.LoginDao"> <!-- resultype는 반환하는 값이 있을 경우에만 적어주는것 insert 같은 경우에는 빼준다.  -->
+<select id="login" resultType="egovframework.SenseArmy.main.Dto.SignupDto"> <!-- 회원가입 쿼리문 -->
+SELECT * FROM PERSONAL_INFORMATION WHERE MILITARY_SERIAL_NUMBER =#{param1) AND PASSWORD ={#param2}
+</select>
+</mapper>
