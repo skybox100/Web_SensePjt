@@ -50,7 +50,7 @@ html, body {
     <div class="flex center" style="height:100%;">
        <div><h1> 회원가입 되셨습니다.</h1><p>
        <div class="button_submit2 flex center" style="margin-top:100px;">
-       <a href="home" class="" style="color: white; font-size:20px;">main</a>
+       <a href="home.do" class="" style="color: white; font-size:20px;">main</a>
         
        </div>
        </div>

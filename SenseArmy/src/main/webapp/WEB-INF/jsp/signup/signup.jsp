@@ -34,7 +34,7 @@
 				<h1 class="margin_10">create your account</h1>
 			</div>
 			<!-- form의 형태로 컨트롤러에 데이터 전송 -->
-			<form method=post action="signup_ok" name=signupform
+			<form method=post action="signup_complete.do" name=signupform
 				onsubmit="return submit_check()">
 				<table class="font_git">
 					<tr>
@@ -147,16 +147,10 @@
 						</td>
 					</tr>
 					<tr align=center>
-						<td align=center><input type=submit class="button_submit2" id="" value="join"></td>
+					<!-- 	<td align=center><input type=submit class="button_submit2" id="" value="join"></td> -->
+						<td align=center><a href="signup_complete.do" class="button_submit2">join</a></td>
 					</tr>
 				</table>
-<!-- <div style="width:400px;margin-top:50px;">
-By creating an account, you agree to the Terms of Service.
- For more information about Connect's privacy practices,
-  see the Connect Privacy Statement. We'll occasionally
-   send you account-related emails.
-</div> -->
-
 
 			</form>
 

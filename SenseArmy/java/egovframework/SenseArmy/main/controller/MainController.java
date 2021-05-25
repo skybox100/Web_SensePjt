@@ -21,4 +21,9 @@ public class MainController {
 	public String signuppage(){
 		return "signup/signup";
 	}
+	
+	@GetMapping("signup_complete.do")
+	public String signup_completepage(){
+		return "signup/signup_complete";
+	}
 }
