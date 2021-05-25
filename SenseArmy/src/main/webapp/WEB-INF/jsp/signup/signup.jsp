@@ -18,6 +18,7 @@
 <!-- body 시작부 -->
 
 <body>
+	<jsp:include page="../header.jsp" flush="false" />
 	<div class="floor_h100 center">
 		<!-- floor 에서의 높이는 전부 일정해야함 -->
 
@@ -165,7 +166,7 @@ By creating an account, you agree to the Terms of Service.
 
 
 	</div>
-	<%-- <jsp:include page="../footer.jsp" flush="false" /> --%>
+	<jsp:include page="../tail.jsp" flush="false" />
 </body>
 
 <script>

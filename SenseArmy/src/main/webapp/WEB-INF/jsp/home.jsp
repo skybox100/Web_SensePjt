@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link type="text/css" rel="stylesheet" href="<c:url value='/css/egovframework/sample.css'/>"/>
+ <%--    <link type="text/css" rel="stylesheet" href="<c:url value='/css/egovframework/sample.css'/>"/> --%>
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
@@ -19,10 +19,6 @@ of the group task service!</div>
 </div>
 	</div>
 	</div>
-<!-- 	<div class="floor_h100" >	 -->
-
-<!-- 	</div> -->
-
 	<jsp:include page="tail.jsp" flush="false" />
 
 </body>

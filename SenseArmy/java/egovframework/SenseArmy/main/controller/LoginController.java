@@ -28,12 +28,12 @@ public class LoginController {
 	 * 
 	 * return "home"; //실제 주소(실제로 입력이 되는 주소) }
 	 */
-	@RequestMapping("/login")//브라우저에 입력된 주소(사용자가 입력하는 주소)
+	@RequestMapping("/login.do")//브라우저에 입력된 주소(사용자가 입력하는 주소)
 	public String login(Model model,HttpServletRequest request)
 	{
 		
 		
-		return "login"; //실제 주소(실제로 입력이 되는 주소)
+		return "login/login"; //실제 주소(실제로 입력이 되는 주소)
 	}
 	
 	@RequestMapping("/logout")//브라우저에 입력된 주소(사용자가 입력하는 주소)
