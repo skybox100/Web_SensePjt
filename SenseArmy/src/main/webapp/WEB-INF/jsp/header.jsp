@@ -9,7 +9,6 @@
 <title>Insert title here</title>
 <link rel="stylesheet" href="${pageContext.request.contextPath}/css/main.css">
 </head>
-<script type="text/javascript"></script>
 <body>
 <div class="floor_h7 shadow container_w100 ">
 
