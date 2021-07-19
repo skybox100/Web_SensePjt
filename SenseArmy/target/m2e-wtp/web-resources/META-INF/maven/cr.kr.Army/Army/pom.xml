@@ -124,6 +124,13 @@
 			<version>2.5.0</version>
 		</dependency>
 
+	<dependency>
+		    <groupId>com.googlecode.json-simple</groupId>
+		    <artifactId>json-simple</artifactId>
+		    <version>1.1.1</version>
+		</dependency>
+<!-- [출처] [spring] JSONObject 사용하기|작성자 HongDev
+ -->
       <!--   mysql이나 oracle DB 사용시 아래 설정 추가
        -->  
        <dependency>
