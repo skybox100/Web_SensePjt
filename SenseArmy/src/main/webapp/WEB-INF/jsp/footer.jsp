@@ -18,7 +18,7 @@ Location 2215<p>John Daniel Drive<p>Clark, MO 65243
 <div align=center class="width33">
 <span class="fontsize_2 fontweight900">About Connect</span><p>
 Connect is a free to use,<p>
- 미래능력개발교육원 <p>
+ 센스코리아 <p>
  created by Anthony
 </div>
 </div>

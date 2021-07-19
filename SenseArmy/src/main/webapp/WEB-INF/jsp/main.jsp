@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-안녕하세요
+<form action="CheckuserNewsave.jsp" method ="get"> 
+</form>
 </body>
 </html>
